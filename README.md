@@ -2,6 +2,19 @@
 
 ## AIM:
 To create a fully functional to do list.
+
+## ALGORITHM:
+1. Start by setting up a new React project using create-react-app or any other method of your choice.
+2. Create a component called TodoList to serve as the main container for your to-do list.
+3. Inside the TodoList component, create a state variable called "todos" using the useState hook. Initialize it with an empty array.
+4. Render an input field and a button within the TodoList component. The input field will allow users to enter new tasks, and the button will trigger the addition of a new task to the list.
+5. Create an event handler function, let's call it "addTodo", that will be triggered when the button is clicked. Inside this function, retrieve the current value of the input field and add it as a new task to the "todos" state using the setTodos function.
+6. Render the list of tasks. Map over the "todos" array and create a new component called TodoItem for each task. Pass the task data as props to the TodoItem component.
+7. Inside the TodoItem component, display the task text and provide a button or checkbox to mark the task as complete or delete it.
+8. Create event handler functions for marking a task as complete or deleting it. These functions will update the "todos" state accordingly.
+9. Implement the functionality to update the "todos" state when a task is marked as complete or deleted. Use the setTodos function to modify the array.
+10. Finally, render the TodoList component in your main App component and test your to-do list by adding, completing, and deleting tasks.
+
 ## PROGRAM:
 ```
 Index.html:
