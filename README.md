@@ -1,5 +1,7 @@
 # To-do-list
 
+## AIM:
+To create a fully functional to do list.
 ## PROGRAM:
 ```
 Index.html:
@@ -841,3 +843,6 @@ ReactDOM.render(
  Document.getElementById(‘root’)
 );
 ```
+
+## RESULT:
+Thus s fully functional to do list was created.
